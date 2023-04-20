@@ -3,31 +3,29 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-.triangle-up {
+.star{
 	position: relative;
-    width: 0;
+	width: 0;
     height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid yellow;
+    border-left: 50px solid rgba(0, 0, 0, 0);
+    border-right: 50px solid rgba(0, 0, 0, 0);
+    border-bottom: 100px solid rgb(255, 255, 0);
 }
-.triangle-down {
+.star > div {
 	position: absolute;
     width: 0;
     height: 0;
 	left: -48px;
 	top: 34px;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 100px solid yellow;
+    border-left: 50px solid rgba(0, 0, 0, 0);
+    border-right: 50px solid rgba(0, 0, 0, 0);
+    border-top: 100px solid rgb(255, 255, 0);
 }
 </style>
 </head>
 <body>
 	<div class="star">
-		<div class="triangle-up">
-			<div class="triangle-down"></div>
-		</div>
+		<div></div>
 	</div>
 
 </body>
